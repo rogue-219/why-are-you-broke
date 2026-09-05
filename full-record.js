@@ -9,11 +9,15 @@ async function loadFullRecord() {
     }
 
     const data = await response.json();
-    const members = Object.values(data.members);
+
+    const members = Object.values(data.members).map(member => ({
+      ...member,
+      chamberNormalized: String(member.chamber || "").toLowerCase()
+    }));
 
     members.sort((a, b) => {
-      if (a.chamber !== b.chamber) {
-        return a.chamber.localeCompare(b.chamber);
+      if (a.chamberNormalized !== b.chamberNormalized) {
+        return a.chamberNormalized.localeCompare(b.chamberNormalized);
       }
 
       if (a.state !== b.state) {
@@ -23,14 +27,26 @@ async function loadFullRecord() {
       return a.member.localeCompare(b.member);
     });
 
+    const formatScore = score => {
+      if (score === null || score === undefined) {
+        return "—";
+      }
+
+      return Number.isInteger(score)
+        ? score
+        : Math.round(score * 10) / 10;
+    };
+
     container.innerHTML = `
       <div class="record-controls">
         <button type="button" class="record-filter active" data-chamber="all">
           ALL
         </button>
+
         <button type="button" class="record-filter" data-chamber="house">
           HOUSE
         </button>
+
         <button type="button" class="record-filter" data-chamber="senate">
           SENATE
         </button>
@@ -49,21 +65,32 @@ async function loadFullRecord() {
               <th>PARTICIPATION</th>
             </tr>
           </thead>
+
           <tbody>
             ${members.map(member => `
-              <tr data-chamber="${member.chamber}">
+              <tr data-chamber="${member.chamberNormalized}">
                 <td><strong>${member.member}</strong></td>
                 <td>${member.party}</td>
                 <td>${member.state}</td>
-                <td>${member.chamber === "house" ? "House" : "Senate"}</td>
+                <td>
+                  ${member.chamberNormalized === "house"
+                    ? "House"
+                    : "Senate"}
+                </td>
+
                 <td class="record-score">
-                  ${member.score === null ? "—" : member.score}
+                  ${formatScore(member.score)}
                 </td>
+
                 <td>
-                  ${member.cast === 0 ? "—" : `${member.aligned} / ${member.cast}`}
+                  ${member.cast === 0
+                    ? "—"
+                    : `${member.aligned} / ${member.cast}`}
                 </td>
+
                 <td>
-                  ${member.participationPct === null
+                  ${member.participationPct === null ||
+                    member.participationPct === undefined
                     ? "—"
                     : `${Math.round(member.participationPct)}%`}
                 </td>
@@ -81,7 +108,10 @@ async function loadFullRecord() {
       button.addEventListener("click", () => {
         const chamber = button.dataset.chamber;
 
-        filters.forEach(filter => filter.classList.remove("active"));
+        filters.forEach(filter => {
+          filter.classList.remove("active");
+        });
+
         button.classList.add("active");
 
         rows.forEach(row => {
@@ -96,6 +126,7 @@ async function loadFullRecord() {
     container.innerHTML = `
       <p>We couldn't load the congressional score record.</p>
     `;
+
     console.error(error);
   }
 }
