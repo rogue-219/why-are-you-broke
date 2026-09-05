@@ -326,6 +326,85 @@ background-repeat: no-repeat;
 .site-nav a:hover {
   color: var(--red);
 }
+/* METHODOLOGY PAGE */
+
+.methodology-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 72px 24px 96px;
+}
+
+.methodology-hero,
+.methodology-section {
+  max-width: 820px;
+}
+
+.methodology-hero {
+  margin-bottom: 52px;
+}
+
+.methodology-page .eyebrow {
+  margin: 0 0 10px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--red);
+}
+
+.methodology-page h1 {
+  margin: 0 0 22px;
+  font-size: clamp(2.8rem, 7vw, 5rem);
+  line-height: 0.95;
+}
+
+.methodology-page h2 {
+  margin: 0 0 16px;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  line-height: 1;
+}
+
+.methodology-page p {
+  margin: 0 0 16px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.methodology-intro {
+  font-size: 1.2rem !important;
+  font-weight: 700;
+}
+
+.methodology-section {
+  margin-top: 48px;
+}
+
+.methodology-sequence {
+  padding-left: 22px;
+  border-left: 4px solid var(--red);
+}
+
+.methodology-record-button {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 14px 20px;
+  background: var(--red);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.methodology-record-button:hover {
+  filter: brightness(1.08);
+}
+
+.full-record {
+  max-width: none;
+  margin-top: 72px;
+  padding-top: 48px;
+  border-top: 1px solid rgba(8, 29, 56, 0.18);
+}
 /* MOBILE */
 
 @media (max-width: 650px) {
