@@ -298,6 +298,34 @@ background-repeat: no-repeat;
 .vote-row a:hover {
   color: var(--red);
 }
+/* SITE NAVIGATION */
+
+.site-header {
+  background: #081d38;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.site-nav {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 28px;
+}
+
+.site-nav a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+
+.site-nav a:hover {
+  color: var(--red);
+}
 /* MOBILE */
 
 @media (max-width: 650px) {
