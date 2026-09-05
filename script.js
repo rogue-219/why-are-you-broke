@@ -58,27 +58,78 @@ const senatorsWithScores = data.senators.map(senator => ({
       buildScoreKey("senate", data.state, senator.name)
     ]
 }));
-    resultBox.innerHTML = `
+  resultBox.innerHTML = `
   <div class="district-result">
     <h3>YOUR REPRESENTATIVES</h3>
 
-    <div class="member-result">
-      <p><strong>U.S. HOUSE</strong></p>
-      <p><strong>${formatMemberName(data.houseMember.name)}</strong></p>
-      <p>${data.houseMember.party} · ${data.state} District ${data.district}</p>
-      <p><strong>Working-Class Score:</strong> ${houseScore ? Math.round(houseScore.score) : "N/A"}</p>
-    </div>
+    <div class="representative-grid">
 
-    <div class="member-result">
-      <p><strong>U.S. SENATE</strong></p>
+      <div class="representative-card">
+        <img
+          src="${data.houseMember.imageUrl}"
+          alt="${formatMemberName(data.houseMember.name)}"
+          class="representative-photo"
+        >
+
+        <div class="representative-card-body">
+          <p class="representative-chamber">U.S. HOUSE</p>
+          <h4>${formatMemberName(data.houseMember.name)}</h4>
+          <p class="representative-meta">
+            ${data.houseMember.party} · ${data.state} District ${data.district}
+          </p>
+
+          <div class="score-block">
+            <span class="score-label">WORKING-CLASS SCORE</span>
+            <span class="score-number">
+              ${houseScore ? Math.round(houseScore.score) : "N/A"}
+            </span>
+          </div>
+
+          ${
+            houseScore
+              ? `<p class="participation-line">
+                   ${houseScore.aligned}/${houseScore.cast} qualifying votes aligned ·
+                   ${Math.round(houseScore.participationPct)}% participation
+                 </p>`
+              : ""
+          }
+        </div>
+      </div>
 
       ${senatorsWithScores.map(senator => `
-        <div class="senator-result">
-          <p><strong>${formatMemberName(senator.name)}</strong></p>
-          <p>${senator.party} · ${data.state}</p>
-          <p><strong>Working-Class Score:</strong> ${senator.scoreData ? Math.round(senator.scoreData.score) : "N/A"}</p>
+        <div class="representative-card">
+          <img
+            src="${senator.imageUrl}"
+            alt="${formatMemberName(senator.name)}"
+            class="representative-photo"
+          >
+
+          <div class="representative-card-body">
+            <p class="representative-chamber">U.S. SENATE</p>
+            <h4>${formatMemberName(senator.name)}</h4>
+            <p class="representative-meta">
+              ${senator.party} · ${data.state}
+            </p>
+
+            <div class="score-block">
+              <span class="score-label">WORKING-CLASS SCORE</span>
+              <span class="score-number">
+                ${senator.scoreData ? Math.round(senator.scoreData.score) : "N/A"}
+              </span>
+            </div>
+
+            ${
+              senator.scoreData
+                ? `<p class="participation-line">
+                     ${senator.scoreData.aligned}/${senator.scoreData.cast} qualifying votes aligned ·
+                     ${Math.round(senator.scoreData.participationPct)}% participation
+                   </p>`
+                : ""
+            }
+          </div>
         </div>
       `).join("")}
+
     </div>
   </div>
 `;
