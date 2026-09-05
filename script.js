@@ -169,6 +169,33 @@ const senatorsWithScores = data.senators.map(senator => {
                    </p>`
                 : ""
             }
+            <details class="vote-details">
+  <summary>SEE EVERY VOTE</summary>
+
+  <div class="vote-list">
+    ${senator.voteHistory.map(vote => `
+      <div class="vote-row">
+        <div class="vote-row-top">
+          <strong>${vote.measure}</strong>
+          <span>${vote.status}</span>
+        </div>
+
+        <p>${vote.date} · ${vote.decision}</p>
+
+        <p>
+          Working-class position:
+          <strong>${vote.workingClassPosition}</strong> ·
+          Member vote:
+          <strong>${vote.memberVote}</strong>
+        </p>
+
+        <a href="${vote.officialSource}" target="_blank" rel="noopener">
+          VIEW OFFICIAL ROLL CALL
+        </a>
+      </div>
+    `).join("")}
+  </div>
+</details>
           </div>
         </div>
       `).join("")}
