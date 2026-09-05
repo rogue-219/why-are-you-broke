@@ -172,10 +172,10 @@ export default async function handler(req, res) {
     });
 
   } catch (error) {
-    console.error(error);
+  console.error(error);
 
-    return res.status(500).json({
-      error: "Representative lookup is temporarily unavailable."
-    });
-  }
+  return res.status(500).json({
+    error: "Representative lookup is temporarily unavailable.",
+    detail: error.message
+  });
 }
