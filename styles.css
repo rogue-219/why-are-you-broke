@@ -686,6 +686,15 @@ background-repeat: no-repeat;
   color: #081d38;
   font-weight: 800;
 }
+.member-vote-status {
+  border-color: #c51f32;
+  color: #c51f32;
+}
+
+.member-vote-status.aligned {
+  border-color: #081d38;
+  color: #081d38;
+}
 /* MOBILE */
 
 @media (max-width: 650px) {
