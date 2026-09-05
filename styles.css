@@ -147,19 +147,59 @@ background-repeat: no-repeat;
 
 @media (max-width: 650px) {
   .hero {
+    min-height: auto;
     align-items: flex-start;
-    padding-top: 70px;
+    padding: 34px 22px 42px;
+    background-position: 62% center;
   }
 
   .hero h1 {
-    font-size: clamp(3.8rem, 18vw, 6rem);
+    font-size: clamp(3.2rem, 16vw, 5rem);
+    line-height: 0.88;
+    margin-bottom: 24px;
+  }
+
+  .hero h1::after {
+    width: 90px;
+    height: 6px;
+    margin-top: 18px;
+  }
+
+  .hero-lead {
+    font-size: 1.15rem;
+    line-height: 1.35;
+    margin-bottom: 26px;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+    line-height: 1.05;
+    margin-bottom: 14px;
+  }
+
+  .hero-copy {
+    font-size: 1rem;
+    line-height: 1.45;
+    margin-bottom: 24px;
   }
 
   .lookup {
     grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .lookup input,
+  .lookup button {
+    min-height: 52px;
   }
 
   .lookup button {
     width: 100%;
+  }
+
+  .receipts {
+    margin-top: 14px;
+    font-size: 0.82rem;
+    line-height: 1.4;
   }
 }
