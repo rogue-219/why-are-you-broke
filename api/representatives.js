@@ -133,10 +133,12 @@ try {
     const houseResponse = await fetch(houseUrl);
 
     if (!houseResponse.ok) {
-      throw new Error(
-        `Congress House lookup returned ${houseResponse.status}`
-      );
-    }
+  const errorText = await houseResponse.text();
+
+  throw new Error(
+    `Congress House lookup returned ${houseResponse.status}: ${errorText.slice(0, 300)}`
+  );
+}
 
     const houseText = await houseResponse.text();
 
