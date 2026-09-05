@@ -82,10 +82,10 @@ background-repeat: no-repeat;
 
 .hero-copy {
   max-width: 720px;
-  font-size: 1.2rem;
-  line-height: 1.6;
+  font-size: 1.3rem;
+  line-height: 1.5;
   margin-bottom: 22px;
-  color: rgba(255, 255, 255, 0.88);
+  color: rgba(255, 255, 255, 0.94);
 }
 
 /* REPRESENTATIVE LOOKUP */
