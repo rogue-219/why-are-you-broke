@@ -94,9 +94,9 @@ async function loadMemberRecord() {
                       <h3>${vote.measure}</h3>
                     </div>
 
-                    <span class="member-vote-status">
-                      ${vote.status}
-                    </span>
+                    <span class="member-vote-status ${vote.status === "Aligned" ? "aligned" : ""}">
+  ${vote.status}
+</span>
                   </div>
 
                   <p class="member-vote-decision">
