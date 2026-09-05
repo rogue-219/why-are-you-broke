@@ -69,7 +69,15 @@ async function loadFullRecord() {
           <tbody>
             ${members.map(member => `
               <tr data-chamber="${member.chamberNormalized}">
-                <td><strong>${member.member}</strong></td>
+                <td>
+  <button
+    type="button"
+    class="member-record-link"
+    data-member-key="${member.lookupKey}"
+  >
+    ${member.member}
+  </button>
+</td>
                 <td>${member.party}</td>
                 <td>${member.state}</td>
                 <td>
@@ -103,7 +111,15 @@ async function loadFullRecord() {
 
     const filters = container.querySelectorAll(".record-filter");
     const rows = container.querySelectorAll(".record-table tbody tr");
+const memberLinks = container.querySelectorAll(".member-record-link");
 
+memberLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    const memberKey = link.dataset.memberKey;
+    window.location.href =
+      `member-record.html?member=${encodeURIComponent(memberKey)}`;
+  });
+});
     filters.forEach(button => {
       button.addEventListener("click", () => {
         const chamber = button.dataset.chamber;
