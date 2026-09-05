@@ -142,7 +142,94 @@ background-repeat: no-repeat;
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.7);
 }
+/* REPRESENTATIVE SCORE CARDS */
 
+.district-result {
+  margin-top: 14px;
+  max-width: 1050px;
+}
+
+.district-result h3 {
+  margin-bottom: 14px;
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+}
+
+.representative-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.representative-card {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 8px;
+  background: rgba(4, 28, 55, 0.88);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
+}
+
+.representative-photo {
+  width: 100%;
+  height: 220px;
+  display: block;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.representative-card-body {
+  padding: 16px;
+}
+
+.representative-chamber {
+  margin-bottom: 5px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.representative-card h4 {
+  margin: 0 0 4px;
+  font-size: 1.35rem;
+  line-height: 1.1;
+}
+
+.representative-meta {
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.score-block {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.score-label {
+  max-width: 130px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+
+.score-number {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 0.9;
+}
+
+.participation-line {
+  margin-top: 12px;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.66);
+}
 /* MOBILE */
 
 @media (max-width: 650px) {
@@ -201,5 +288,16 @@ background-repeat: no-repeat;
     margin-top: 14px;
     font-size: 0.82rem;
     line-height: 1.4;
+  }
+    .representative-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .representative-photo {
+    height: 240px;
+  }
+
+  .district-result h3 {
+    margin-top: 6px;
   }
 }
