@@ -72,7 +72,15 @@ module.exports = async function handler(req, res) {
       throw new Error(`Census API returned ${censusResponse.status}`);
     }
 
-    const censusData = await censusResponse.json();
+    const censusText = await censusResponse.text();
+
+let censusData;
+
+try {
+  censusData = JSON.parse(censusText);
+} catch {
+  throw new Error(`Census returned non-JSON: ${censusText.slice(0, 120)}`);
+}
 
     const matches = censusData?.result?.addressMatches || [];
 
@@ -130,7 +138,15 @@ module.exports = async function handler(req, res) {
       );
     }
 
-    const houseData = await houseResponse.json();
+    const houseText = await houseResponse.text();
+
+let houseData;
+
+try {
+  houseData = JSON.parse(houseText);
+} catch {
+  throw new Error(`Congress House returned non-JSON: ${houseText.slice(0, 120)}`);
+}
 
     const houseMember = (houseData.members || []).find(member =>
       currentChamber(member) === "House of Representatives"
@@ -152,7 +168,15 @@ module.exports = async function handler(req, res) {
       );
     }
 
-    const senateData = await senateResponse.json();
+    const senateText = await senateResponse.text();
+
+let senateData;
+
+try {
+  senateData = JSON.parse(senateText);
+} catch {
+  throw new Error(`Congress Senate returned non-JSON: ${senateText.slice(0, 120)}`);
+}
 
     const senators = (senateData.members || [])
       .filter(member => currentChamber(member) === "Senate")
