@@ -26,11 +26,27 @@ async function findRepresentatives() {
     }
 
     resultBox.innerHTML = `
-      <div class="district-result">
-        <p><strong>Matched address:</strong> ${data.matchedAddress}</p>
-        <p><strong>Congressional district:</strong> ${data.congressionalDistrictName}</p>
-      </div>
-    `;
+  <div class="district-result">
+    <h3>YOUR REPRESENTATIVES</h3>
+
+    <div class="member-result">
+      <p><strong>U.S. HOUSE</strong></p>
+      <p><strong>${data.houseMember.name}</strong></p>
+      <p>${data.houseMember.party} · ${data.state} District ${data.district}</p>
+    </div>
+
+    <div class="member-result">
+      <p><strong>U.S. SENATE</strong></p>
+
+      ${data.senators.map(senator => `
+        <div class="senator-result">
+          <p><strong>${senator.name}</strong></p>
+          <p>${senator.party} · ${data.state}</p>
+        </div>
+      `).join("")}
+    </div>
+  </div>
+`;
   } catch (error) {
     resultBox.innerHTML = `<p>${error.message}</p>`;
   } finally {
