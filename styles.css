@@ -71,20 +71,20 @@ background-repeat: no-repeat;
   font-size: clamp(1.35rem, 2.5vw, 2rem);
   line-height: 1.4;
   font-weight: 600;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .hero h2 {
   font-size: clamp(2rem, 4vw, 3.5rem);
   line-height: 1.05;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 
 .hero-copy {
   max-width: 720px;
   font-size: 1.2rem;
   line-height: 1.6;
-  margin-bottom: 38px;
+  margin-bottom: 22px;
   color: rgba(255, 255, 255, 0.88);
 }
 
