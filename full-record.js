@@ -10,10 +10,11 @@ async function loadFullRecord() {
 
     const data = await response.json();
 
-    const members = Object.values(data.members).map(member => ({
-      ...member,
-      chamberNormalized: String(member.chamber || "").toLowerCase()
-    }));
+    const members = Object.entries(data.members).map(([lookupKey, member]) => ({
+  ...member,
+  lookupKey,
+  chamberNormalized: String(member.chamber || "").toLowerCase()
+}));
 
     members.sort((a, b) => {
       if (a.chamberNormalized !== b.chamberNormalized) {
