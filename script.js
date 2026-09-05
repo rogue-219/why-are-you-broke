@@ -72,7 +72,7 @@ const senatorsWithScores = data.senators.map(senator => ({
     <div class="member-result">
       <p><strong>U.S. SENATE</strong></p>
 
-      ${senatorsWithScores.map(senator => ` `
+      ${senatorsWithScores.map(senator => `
         <div class="senator-result">
           <p><strong>${formatMemberName(senator.name)}</strong></p>
           <p>${senator.party} · ${data.state}</p>
