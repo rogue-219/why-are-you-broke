@@ -423,6 +423,93 @@ background-repeat: no-repeat;
   padding-top: 48px;
   border-top: 1px solid rgba(8, 29, 56, 0.18);
 }
+/* FULL RECORD */
+
+.record-controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 28px 0 22px;
+}
+
+.record-filter {
+  border: 1px solid rgba(8, 29, 56, 0.18);
+  background: transparent;
+  color: #081d38;
+  padding: 10px 16px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+.record-filter:hover,
+.record-filter.active {
+  background: #081d38;
+  color: var(--white);
+  border-color: #081d38;
+}
+
+.record-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid rgba(8, 29, 56, 0.12);
+}
+
+.record-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 820px;
+  background: var(--white);
+}
+
+.record-table thead {
+  background: #081d38;
+  color: var(--white);
+}
+
+.record-table th {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.record-table td {
+  padding: 13px 16px;
+  border-top: 1px solid rgba(8, 29, 56, 0.08);
+  font-size: 0.9rem;
+  vertical-align: middle;
+}
+
+.record-table tbody tr:hover {
+  background: rgba(8, 29, 56, 0.035);
+}
+
+.record-table td:first-child {
+  min-width: 190px;
+}
+
+.record-score {
+  font-size: 1rem !important;
+  font-weight: 900;
+  color: #081d38;
+}
+
+.record-table th:nth-child(5),
+.record-table td:nth-child(5),
+.record-table th:nth-child(6),
+.record-table td:nth-child(6),
+.record-table th:nth-child(7),
+.record-table td:nth-child(7) {
+  text-align: center;
+}
+
+.record-table tbody tr[hidden] {
+  display: none;
+}
 /* MOBILE */
 
 @media (max-width: 650px) {
