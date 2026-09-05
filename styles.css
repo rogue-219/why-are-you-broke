@@ -28,12 +28,18 @@ body {
   justify-content: center;
   padding: 60px 24px;
   background:
-    linear-gradient(
-      110deg,
-      rgba(7, 29, 58, 0.98) 0%,
-      rgba(7, 29, 58, 0.94) 55%,
-      rgba(18, 59, 104, 0.90) 100%
-    );
+  linear-gradient(
+    90deg,
+    rgba(7, 29, 58, 0.98) 0%,
+    rgba(7, 29, 58, 0.92) 42%,
+    rgba(7, 29, 58, 0.48) 68%,
+    rgba(7, 29, 58, 0.18) 100%
+  ),
+  url("flag-background.png");
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
   color: var(--white);
 }
 
