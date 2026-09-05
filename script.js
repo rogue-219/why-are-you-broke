@@ -1,7 +1,12 @@
 const searchInput = document.getElementById("rep-search");
 const lookupButton = document.querySelector(".lookup button");
 const resultBox = document.getElementById("lookup-result");
+function formatMemberName(name) {
+  if (!name || !name.includes(",")) return name;
 
+  const [last, first] = name.split(",");
+  return `${first.trim()} ${last.trim()}`;
+}
 async function findRepresentatives() {
   const address = searchInput.value.trim();
 
@@ -31,7 +36,7 @@ async function findRepresentatives() {
 
     <div class="member-result">
       <p><strong>U.S. HOUSE</strong></p>
-      <p><strong>${data.houseMember.name}</strong></p>
+      <p><strong>${formatMemberName(data.houseMember.name)}</strong></p>
       <p>${data.houseMember.party} · ${data.state} District ${data.district}</p>
     </div>
 
@@ -40,7 +45,7 @@ async function findRepresentatives() {
 
       ${data.senators.map(senator => `
         <div class="senator-result">
-          <p><strong>${senator.name}</strong></p>
+          <p><strong>${formatMemberName(senator.name)}</strong></p>
           <p>${senator.party} · ${data.state}</p>
         </div>
       `).join("")}
