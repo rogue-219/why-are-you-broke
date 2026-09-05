@@ -54,7 +54,7 @@ background-repeat: no-repeat;
   line-height: 0.88;
   letter-spacing: -0.055em;
   font-weight: 900;
-  margin-bottom: 38px;
+  margin-bottom: 24px;
 }
 
 .hero h1::after {
@@ -62,7 +62,7 @@ background-repeat: no-repeat;
   display: block;
   width: 110px;
   height: 8px;
-  margin-top: 28px;
+  margin-top: 24px;
   background: var(--red);
 }
 
@@ -71,13 +71,13 @@ background-repeat: no-repeat;
   font-size: clamp(1.35rem, 2.5vw, 2rem);
   line-height: 1.4;
   font-weight: 600;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .hero h2 {
   font-size: clamp(2rem, 4vw, 3.5rem);
   line-height: 1.05;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .hero-copy {
