@@ -97,14 +97,14 @@ const senatorsWithScores = data.senators.map(senator => {
           <div class="score-block">
             <span class="score-label">WORKING-CLASS SCORE</span>
             <span class="score-number">
-              ${houseScore ? Math.round(houseScore.score) : "N/A"}
+              ${houseScore ? `${Math.round(houseScore.score)}%` : "N/A"}
             </span>
           </div>
 
           ${
             houseScore
               ? `<p class="participation-line">
-                   ${houseScore.aligned}/${houseScore.cast} qualifying votes aligned ·
+                   ${houseScore.aligned} of ${houseScore.cast} qualifying votes aligned ·
                    ${Math.round(houseScore.participationPct)}% participation
                  </p>`
               : ""
@@ -157,14 +157,14 @@ const senatorsWithScores = data.senators.map(senator => {
             <div class="score-block">
               <span class="score-label">WORKING-CLASS SCORE</span>
               <span class="score-number">
-                ${senator.scoreData ? Math.round(senator.scoreData.score) : "N/A"}
+                ${senator.scoreData ? `${Math.round(senator.scoreData.score)}%` : "N/A"}
               </span>
             </div>
 
             ${
               senator.scoreData
                 ? `<p class="participation-line">
-                     ${senator.scoreData.aligned}/${senator.scoreData.cast} qualifying votes aligned ·
+                     ${senator.scoreData.aligned} of ${senator.scoreData.cast} qualifying votes aligned ·
                      ${Math.round(senator.scoreData.participationPct)}% participation
                    </p>`
                 : ""
