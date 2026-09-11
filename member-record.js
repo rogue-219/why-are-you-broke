@@ -50,7 +50,7 @@ async function loadMemberRecord() {
         : `${member.aligned} / ${member.cast}`;
 
     const votes = voteRecord?.votes || [];
-
+    const voteDefinitions = votesData.votes || {};
     container.innerHTML = `
       <div class="member-record-header">
         <p class="eyebrow">119TH CONGRESS</p>
@@ -86,8 +86,12 @@ async function loadMemberRecord() {
 
         ${
           votes.length
-            ? votes.map(vote => `
-                <article class="member-vote-card">
+            ? votes.map(vote => {
+             
+              const definition = voteDefinitions[vote.voteId] || {};
+
+return `
+  <article class="member-vote-card">
                   <div class="member-vote-heading">
                     <div>
                       <p class="member-vote-date">${vote.date}</p>
@@ -114,7 +118,19 @@ async function loadMemberRecord() {
                       <strong>${vote.memberVote}</strong>
                     </p>
                   </div>
+${definition.whyWeChose ? `
+  <details class="vote-rationale">
+    <summary>WHY THIS POSITION?</summary>
+    <p><strong>WHAT THIS VOTE DID</strong></p>
+<p>${definition.whatThisVoteDid}</p>
 
+<p><strong>WHY IT MATTERS TO YOU</strong></p>
+<p>${definition.whyItMattersToYou}</p>
+
+<p><strong>WHY WE CHOSE ${vote.workingClassPosition}</strong></p>
+<p>${definition.whyWeChose}</p>
+  </details>
+` : ""}
                   <a
                     href="${vote.officialSource}"
                     target="_blank"
@@ -123,7 +139,8 @@ async function loadMemberRecord() {
                     VIEW OFFICIAL ROLL CALL
                   </a>
                 </article>
-              `).join("")
+              `;
+}).join("")
             : `<p>No qualifying votes are available for this member.</p>`
         }
       </div>
