@@ -15,7 +15,28 @@
       "roll": "96",
       "workingClassPosition": "NO",
       "decision": "Repeal CFPB overdraft rule for very large financial institutions",
-      "officialSource": "https://clerk.house.gov/Votes/202596"
+"whatThisVoteDid": "This vote repealed a CFPB rule for banks and credit unions with more than $10 billion in assets. The rule would have required them to keep most overdraft fees low or treat overdrafts like loans and give borrowers normal lending disclosures.",
+"whyItMattersToYou": "If you overdraft your account at a very large bank, this rule could have lowered what you pay. The CFPB estimated consumers would save up to $5 billion a year, about $225 per household that pays overdraft fees.",
+"whyWeChose": "We chose NO because a NO vote would have kept the consumer protection in place. Repealing the rule removed limits and lending protections that the CFPB estimated would save consumers billions in overdraft fees.",
+"proof": [
+  {
+    "label": "CFPB consumer impact",
+    "url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-closes-overdraft-loophole-to-save-americans-billions-in-fees/"
+  },
+  {
+    "label": "CFPB final rule",
+    "url": "https://www.consumerfinance.gov/rules-policy/final-rules/overdraft-lending-very-large-financial-institutions-final-rule/"
+  },
+  {
+    "label": "Congressional resolution",
+    "url": "https://www.congress.gov/119/bills/sjres18/BILLS-119sjres18es.pdf"
+  },
+  {
+    "label": "CBO companion estimate",
+    "url": "https://www.cbo.gov/publication/61767"
+  }
+],
+"officialSource": "https://clerk.house.gov/Votes/202596"
     },
     "H157": {
       "voteId": "H157",
