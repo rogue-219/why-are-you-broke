@@ -129,6 +129,18 @@ ${definition.whyWeChose ? `
 
 <p><strong>WHY WE CHOSE ${vote.workingClassPosition}</strong></p>
 <p>${definition.whyWeChose}</p>
+${definition.proof?.length ? `
+  <p><strong>PROOF</strong></p>
+  <ul>
+    ${definition.proof.map(source => `
+      <li>
+        <a href="${source.url}" target="_blank" rel="noopener">
+          ${source.label}
+        </a>
+      </li>
+    `).join("")}
+  </ul>
+` : ""}
   </details>
 ` : ""}
                   <a
