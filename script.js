@@ -46,7 +46,7 @@ const voteDetailsResponse = await fetch(
   "/data/working-class-vote-details.json"
 );
 const voteDetailsData = await voteDetailsResponse.json();
-
+const voteDefinitions = voteDetailsData.votes || {};
 const scoreMembers = scoresData.members;
     const voteDetails = voteDetailsData.members;
     if (!response.ok) {
@@ -113,7 +113,9 @@ const senatorsWithScores = data.senators.map(senator => {
   <summary>SEE EVERY VOTE</summary>
 
   <div class="vote-list">
-    ${houseVoteHistory.map(vote => `
+    ${houseVoteHistory.map(vote => {
+  const definition = voteDefinitions[vote.voteId] || {};
+  return ``
       <div class="vote-row">
         <div class="vote-row-top">
           <strong>${vote.measure}</strong>
@@ -132,17 +134,17 @@ const senatorsWithScores = data.senators.map(senator => {
   <summary>WHY THIS POSITION?</summary>
 
   <p><strong>WHAT THIS VOTE DID</strong><br>
-  ${vote.whatThisVoteDid}</p>
+  ${definition.whatThisVoteDid}
 
   <p><strong>WHY IT MATTERS TO YOU</strong><br>
-  ${vote.whyItMattersToYou}</p>
+  ${definition.whyItMattersToYou}
 
   <p><strong>WHY WE CHOSE ${vote.workingClassPosition}</strong><br>
-  ${vote.whyWeChose}</p>
+  ${definition.whyWeChose}
 
-  ${vote.proof?.length ? `
+  ${definition.proof?.length ? `
     <p><strong>PROOF</strong></p>
-    ${vote.proof.map(item => `
+    ${definition.proof.map(item => ` `
       <a href="${item.url}" target="_blank" rel="noopener">
         ${item.label}
       </a><br>
@@ -153,7 +155,8 @@ const senatorsWithScores = data.senators.map(senator => {
           VIEW OFFICIAL ROLL CALL
         </a>
       </div>
-    `).join("")}
+    `;
+}).join("")}
   </div>
 </details>
         </div>
@@ -193,7 +196,9 @@ const senatorsWithScores = data.senators.map(senator => {
   <summary>SEE EVERY VOTE</summary>
 
   <div class="vote-list">
-    ${senator.voteHistory.map(vote => `
+    ${senator.voteHistory.map(vote => {
+  const definition = voteDefinitions[vote.voteId] || {};
+  return ` `
       <div class="vote-row">
         <div class="vote-row-top">
           <strong>${vote.measure}</strong>
@@ -212,17 +217,17 @@ const senatorsWithScores = data.senators.map(senator => {
   <summary>WHY THIS POSITION?</summary>
 
   <p><strong>WHAT THIS VOTE DID</strong><br>
-  ${vote.whatThisVoteDid}</p>
+  ${definition.whatThisVoteDid}
 
   <p><strong>WHY IT MATTERS TO YOU</strong><br>
-  ${vote.whyItMattersToYou}</p>
+  ${definition.whyItMattersToYou}
 
   <p><strong>WHY WE CHOSE ${vote.workingClassPosition}</strong><br>
-  ${vote.whyWeChose}</p>
+  ${definition.whyWeChose}
 
-  ${vote.proof?.length ? `
+  ${definition.proof?.length ? `
     <p><strong>PROOF</strong></p>
-    ${vote.proof.map(item => `
+    ${definition.proof.map(item => `
       <a href="${item.url}" target="_blank" rel="noopener">
         ${item.label}
       </a><br>
@@ -233,7 +238,8 @@ const senatorsWithScores = data.senators.map(senator => {
           VIEW OFFICIAL ROLL CALL
         </a>
       </div>
-    `).join("")}
+    `;
+}).join("")}
   </div>
 </details>
           </div>
