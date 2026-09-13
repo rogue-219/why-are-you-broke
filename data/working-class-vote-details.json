@@ -15,431 +15,432 @@
       "roll": "96",
       "workingClassPosition": "NO",
       "decision": "Repeal CFPB overdraft rule for very large financial institutions",
-"whatThisVoteDid": "Big banks were going to face new rules on overdraft fees. This vote canceled those rules.",
-"whyItMattersToYou": "Overdraft fees can act like a poor tax. When money is already tight, spending more than you have can trigger another fee and put you even further behind. The CFPB estimated these rules could have saved people up to $5 billion a year, about $225 for each household that pays overdraft fees.",
-"whyWeChose": "We chose NO because canceling the rule meant people could keep paying higher overdraft fees. The rule would have saved customers money, while banks would collect less in fees.",
-"proof": [
-  {
-    "label": "CFPB consumer impact",
-    "url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-closes-overdraft-loophole-to-save-americans-billions-in-fees/"
-  },
-  {
-    "label": "CFPB final rule",
-    "url": "https://www.consumerfinance.gov/rules-policy/final-rules/overdraft-lending-very-large-financial-institutions-final-rule/"
-  },
-  {
-    "label": "Congressional resolution",
-    "url": "https://www.congress.gov/119/bills/sjres18/BILLS-119sjres18es.pdf"
-  },
-  {
-    "label": "CBO companion estimate",
-    "url": "https://www.cbo.gov/publication/61767"
-  }
-],
-"officialSource": "https://clerk.house.gov/Votes/202596"
+      "officialSource": "https://clerk.house.gov/Votes/202596",
+      "whatThisVoteDid": "Big banks were going to face new rules on overdraft fees. This vote canceled those rules.",
+      "whyItMattersToYou": "Overdraft fees can act like a poor tax. When money is already tight, spending more than you have can trigger another fee and put you even further behind. The CFPB estimated these rules could have saved people up to $5 billion a year, about $225 for each household that pays overdraft fees.",
+      "whyWeChose": "We chose NO because canceling the rule meant people could keep paying higher overdraft fees. The rule would have saved customers money, while banks would collect less in fees.",
+      "proof": [
+        {
+          "label": "CFPB consumer impact",
+          "url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-closes-overdraft-loophole-to-save-americans-billions-in-fees/"
+        },
+        {
+          "label": "CFPB final rule",
+          "url": "https://www.consumerfinance.gov/rules-policy/final-rules/overdraft-lending-very-large-financial-institutions-final-rule/"
+        },
+        {
+          "label": "Congressional resolution",
+          "url": "https://www.congress.gov/119/bills/sjres18/BILLS-119sjres18es.pdf"
+        },
+        {
+          "label": "CBO companion estimate",
+          "url": "https://www.cbo.gov/publication/61767"
+        }
+      ]
     },
     "H157": {
-  "voteId": "H157",
-  "chamber": "House",
-  "date": "2025-06-09",
-  "measure": "H.R.2035",
-  "roll": "157",
-  "workingClassPosition": "YES",
-  "decision": "American Cargo for American Ships Act",
-  "whatThisVoteDid": "The U.S. government ships a lot of goods overseas. This bill would require more of those goods to travel on American ships with American crews.",
-  "whyItMattersToYou": "That could mean more jobs for Americans who build, repair, and work on ships instead of sending that work to companies overseas.",
-  "whyWeChose": "We chose YES because the bill would keep more of this work and the jobs that come with it in the United States.",
-   "proof": [
-  {
-    "label": "Congress.gov bill text",
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2035"
-  }
-],   
-  "officialSource": "https://clerk.house.gov/Votes/2025157"
-"H190": {
-  "voteId": "H190",
-  "chamber": "House",
-  "date": "2025-07-03",
-  "measure": "H.R.1",
-  "roll": "190",
-  "workingClassPosition": "NO",
-  "decision": "Final reconciliation concurrence",
-  "whatThisVoteDid": "This vote passed a huge bill that changed taxes, Medicaid, food assistance, student loans, and other government spending.",
-  "whyItMattersToYou": "This bill changed how much help and money different families would have. The Congressional Budget Office found that people near the bottom would lose resources, while people in the middle and near the top would gain. It also estimated that changes to Medicaid would leave 7.5 million more people without health insurance in 2034.",
-  "whyWeChose": "We chose NO because people with less money would lose help, including Medicaid and food benefits, while other households would gain from tax changes. Under our rules, that puts too much of the cost on people who can least afford it.",
-  "proof": [
-    {
-      "label": "CBO distributional analysis",
-      "url": "https://www.cbo.gov/publication/61367"
+      "voteId": "H157",
+      "chamber": "House",
+      "date": "2025-06-09",
+      "measure": "H.R.2035",
+      "roll": "157",
+      "workingClassPosition": "YES",
+      "decision": "American Cargo for American Ships Act",
+      "officialSource": "https://clerk.house.gov/Votes/2025157",
+      "whatThisVoteDid": "The U.S. government ships a lot of goods overseas. This bill would require more of those goods to travel on American ships with American crews.",
+      "whyItMattersToYou": "That could mean more jobs for Americans who build, repair, and work on ships instead of sending that work to companies overseas.",
+      "whyWeChose": "We chose YES because the bill would keep more of this work and the jobs that come with it in the United States.",
+      "proof": [
+        {
+          "label": "Congress.gov bill text",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/2035"
+        }
+      ]
     },
-    {
-      "label": "CBO household-resource analysis",
-      "url": "https://www.cbo.gov/interactive/2025-reconciliation-act"
+    "H190": {
+      "voteId": "H190",
+      "chamber": "House",
+      "date": "2025-07-03",
+      "measure": "H.R.1",
+      "roll": "190",
+      "workingClassPosition": "NO",
+      "decision": "Final reconciliation concurrence",
+      "officialSource": "https://clerk.house.gov/Votes/2025190",
+      "whatThisVoteDid": "This vote passed a huge bill that changed taxes, Medicaid, food assistance, student loans, and other government spending.",
+      "whyItMattersToYou": "This bill changed how much help and money different families would have. The Congressional Budget Office found that people near the bottom would lose resources, while people in the middle and near the top would gain. It also estimated that changes to Medicaid would leave 7.5 million more people without health insurance in 2034.",
+      "whyWeChose": "We chose NO because people with less money would lose help, including Medicaid and food benefits, while other households would gain from tax changes. Under our rules, that puts too much of the cost on people who can least afford it.",
+      "proof": [
+        {
+          "label": "CBO distributional analysis",
+          "url": "https://www.cbo.gov/publication/61367"
+        },
+        {
+          "label": "CBO household-resource analysis",
+          "url": "https://www.cbo.gov/interactive/2025-reconciliation-act"
+        },
+        {
+          "label": "CBO Medicaid estimate",
+          "url": "https://www.cbo.gov/publication/61837"
+        },
+        {
+          "label": "CBO budget estimate",
+          "url": "https://www.cbo.gov/publication/61570"
+        }
+      ]
     },
-    {
-      "label": "CBO Medicaid estimate",
-      "url": "https://www.cbo.gov/publication/61837"
-    },
-    {
-      "label": "CBO budget estimate",
-      "url": "https://www.cbo.gov/publication/61570"
-    }
-  ],
-  "officialSource": "https://clerk.house.gov/Votes/2025190"
-},
     "H332": {
-  "voteId": "H332",
-  "chamber": "House",
-  "date": "2025-12-11",
-  "measure": "H.R.2550",
-  "roll": "332",
-  "workingClassPosition": "YES",
-  "decision": "Protect America's Workforce Act",
-  "whatThisVoteDid": "This bill would restore union rights for many federal workers after a 2025 executive order took those rights away. It would also keep existing union contracts in place.",
-  "whyItMattersToYou": "For affected workers, this decides whether the pay, benefits, and workplace rules they negotiated through their union can stay in place.",
-  "whyWeChose": "We chose YES because the bill would restore bargaining rights and protect agreements workers had already negotiated.",
-  "proof": [
-    {
-      "label": "GovInfo bill text",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr2550eh"
+      "voteId": "H332",
+      "chamber": "House",
+      "date": "2025-12-11",
+      "measure": "H.R.2550",
+      "roll": "332",
+      "workingClassPosition": "YES",
+      "decision": "Protect America's Workforce Act",
+      "officialSource": "https://clerk.house.gov/Votes/2025332",
+      "whatThisVoteDid": "This bill would restore union rights for many federal workers after a 2025 executive order took those rights away. It would also keep existing union contracts in place.",
+      "whyItMattersToYou": "For affected workers, this decides whether the pay, benefits, and workplace rules they negotiated through their union can stay in place.",
+      "whyWeChose": "We chose YES because the bill would restore bargaining rights and protect agreements workers had already negotiated.",
+      "proof": [
+        {
+          "label": "GovInfo bill text",
+          "url": "https://www.govinfo.gov/app/details/BILLS-119hr2550eh"
+        },
+        {
+          "label": "Congress.gov bill text",
+          "url": "https://www.congress.gov/119/bills/hr2550/BILLS-119hr2550eh.pdf"
+        }
+      ]
     },
-    {
-      "label": "Congress.gov bill text",
-      "url": "https://www.congress.gov/119/bills/hr2550/BILLS-119hr2550eh.pdf"
-    }
-  ],
-  "officialSource": "https://clerk.house.gov/Votes/2025332"
-},
     "H11": {
-  "voteId": "H11",
-  "chamber": "House",
-  "date": "2026-01-08",
-  "measure": "H.R.1834",
-  "roll": "11",
-  "workingClassPosition": "YES",
-  "decision": "Breaking the Gridlock Act / enhanced ACA premium credits",
-  "whatThisVoteDid": "This bill would keep extra help with health insurance costs through 2028 for people who buy insurance through the ACA marketplace.",
-  "whyItMattersToYou": "If you buy your own health insurance and qualify, this help can lower your monthly bill. The Congressional Budget Office estimated that making the extra help permanent would result in 3.8 million more people having health insurance in 2035.",
-  "whyWeChose": "We chose YES because the money would directly help households pay for health insurance and help more people stay insured.",
-  "proof": [
-    {
-      "label": "CBO H.R. 1834 estimate",
-      "url": "https://www.cbo.gov/publication/61999"
+      "voteId": "H11",
+      "chamber": "House",
+      "date": "2026-01-08",
+      "measure": "H.R.1834",
+      "roll": "11",
+      "workingClassPosition": "YES",
+      "decision": "Breaking the Gridlock Act / enhanced ACA premium credits",
+      "officialSource": "https://clerk.house.gov/Votes/202611",
+      "whatThisVoteDid": "This bill would keep extra help with health insurance costs through 2028 for people who buy insurance through the ACA marketplace.",
+      "whyItMattersToYou": "If you buy your own health insurance and qualify, this help can lower your monthly bill. The Congressional Budget Office estimated that making the extra help permanent would result in 3.8 million more people having health insurance in 2035.",
+      "whyWeChose": "We chose YES because the money would directly help households pay for health insurance and help more people stay insured.",
+      "proof": [
+        {
+          "label": "CBO H.R. 1834 estimate",
+          "url": "https://www.cbo.gov/publication/61999"
+        },
+        {
+          "label": "CBO coverage analysis",
+          "url": "https://www.cbo.gov/publication/61734"
+        }
+      ]
     },
-    {
-      "label": "CBO coverage analysis",
-      "url": "https://www.cbo.gov/publication/61734"
-    }
-  ],
-  "officialSource": "https://clerk.house.gov/Votes/202611"
-},
     "H19": {
-  "voteId": "H19",
-  "chamber": "House",
-  "date": "2026-01-13",
-  "measure": "H.R.2262",
-  "roll": "19",
-  "workingClassPosition": "NO",
-  "decision": "Flexibility for Workers Education Act",
-  "whatThisVoteDid": "This bill would let employers count some job training and education costs toward the overtime pay they owe workers.",
-  "whyItMattersToYou": "If you work overtime, this could affect how much extra pay you receive. An employer could count certain education or training benefits as part of what it owes you for overtime.",
-  "whyWeChose": "We chose NO because workers should receive the overtime pay they earned. Training or education benefits should not be used to replace part of that pay.",
-  "proof": [
-    {
-      "label": "Congress.gov bill text",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2262"
-    }
-  ],
-  "officialSource": "https://clerk.house.gov/Votes/202619"
-},
+      "voteId": "H19",
+      "chamber": "House",
+      "date": "2026-01-13",
+      "measure": "H.R.2262",
+      "roll": "19",
+      "workingClassPosition": "NO",
+      "decision": "Flexibility for Workers Education Act",
+      "officialSource": "https://clerk.house.gov/Votes/202619",
+      "whatThisVoteDid": "This bill would let employers count some job training and education costs toward the overtime pay they owe workers.",
+      "whyItMattersToYou": "If you work overtime, this could affect how much extra pay you receive. An employer could count certain education or training benefits as part of what it owes you for overtime.",
+      "whyWeChose": "We chose NO because workers should receive the overtime pay they earned. Training or education benefits should not be used to replace part of that pay.",
+      "proof": [
+        {
+          "label": "Congress.gov bill text",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/2262"
+        }
+      ]
+    },
     "H216": {
-  "voteId": "H216",
-  "chamber": "House",
-  "date": "2026-06-09",
-  "measure": "H.R.5408",
-  "roll": "216",
-  "workingClassPosition": "YES",
-  "decision": "Faster Labor Contracts Act",
-  "whatThisVoteDid": "This bill would put deadlines on talks for a first union contract after workers vote to form a union. If the two sides still cannot agree, the dispute could eventually go to mediation and then binding arbitration.",
-  "whyItMattersToYou": "Workers can vote to form a union and still wait a long time for a first contract covering pay, benefits, and working conditions. This bill would make it harder for either side to drag those talks out for years.",
-  "whyWeChose": "We chose YES because winning a union vote should lead to a real chance at getting a contract. The bill gives workers more power to move negotiations forward instead of waiting indefinitely.",
-  "proof": [
-    {
-      "label": "GovInfo bill text",
-      "url": "https://www.govinfo.gov/app/details/BILLS-119hr5408eh"
+      "voteId": "H216",
+      "chamber": "House",
+      "date": "2026-06-09",
+      "measure": "H.R.5408",
+      "roll": "216",
+      "workingClassPosition": "YES",
+      "decision": "Faster Labor Contracts Act",
+      "officialSource": "https://clerk.house.gov/Votes/2026216",
+      "whatThisVoteDid": "This bill would put deadlines on talks for a first union contract after workers vote to form a union. If the two sides still cannot agree, the dispute could eventually go to mediation and then binding arbitration.",
+      "whyItMattersToYou": "Workers can vote to form a union and still wait a long time for a first contract covering pay, benefits, and working conditions. This bill would make it harder for either side to drag those talks out for years.",
+      "whyWeChose": "We chose YES because winning a union vote should lead to a real chance at getting a contract. The bill gives workers more power to move negotiations forward instead of waiting indefinitely.",
+      "proof": [
+        {
+          "label": "GovInfo bill text",
+          "url": "https://www.govinfo.gov/app/details/BILLS-119hr5408eh"
+        },
+        {
+          "label": "Congressional Record",
+          "url": "https://www.govinfo.gov/content/pkg/CREC-2026-06-09/pdf/CREC-2026-06-09-pt1-PgH4013.pdf"
+        }
+      ]
     },
-    {
-      "label": "Congressional Record",
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-06-09/pdf/CREC-2026-06-09-pt1-PgH4013.pdf"
-    }
-  ],
-  "officialSource": "https://clerk.house.gov/Votes/2026216"
-},
     "H224": {
-  "voteId": "H224",
-  "chamber": "House",
-  "date": "2026-06-23",
-  "measure": "H.R.6644",
-  "roll": "224",
-  "workingClassPosition": "YES",
-  "decision": "Housing for the 21st Century Act / final concurrence",
-  "whatThisVoteDid": "This bill would make changes aimed at building more homes and lowering some of the costs and delays that make housing harder to build.",
-  "whyItMattersToYou": "Housing costs take a big bite out of a family's paycheck. Making it easier and less expensive to build more homes could help increase the supply of housing and ease pressure on rents and home prices.",
-  "whyWeChose": "We chose YES because the bill takes steps to increase the supply of housing and address costs that make it harder for working families to find an affordable place to live.",
-  "proof": [
-    {
-      "label": "Congress.gov bill text",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6644"
-    }
-  ],
-  "officialSource": "https://clerk.house.gov/Votes/2026224"
-},
+      "voteId": "H224",
+      "chamber": "House",
+      "date": "2026-06-23",
+      "measure": "H.R.6644",
+      "roll": "224",
+      "workingClassPosition": "YES",
+      "decision": "Housing for the 21st Century Act / final concurrence",
+      "officialSource": "https://clerk.house.gov/Votes/2026224",
+      "whatThisVoteDid": "This bill would make changes aimed at building more homes and lowering some of the costs and delays that make housing harder to build.",
+      "whyItMattersToYou": "Housing costs take a big bite out of a family's paycheck. Making it easier and less expensive to build more homes could help increase the supply of housing and ease pressure on rents and home prices.",
+      "whyWeChose": "We chose YES because the bill takes steps to increase the supply of housing and address costs that make it harder for working families to find an affordable place to live.",
+      "proof": [
+        {
+          "label": "Congress.gov bill text",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/6644"
+        }
+      ]
+    },
     "S153": {
-  "voteId": "S153",
-  "chamber": "Senate",
-  "date": "2025-03-27",
-  "measure": "S.J.Res.18",
-  "roll": "153",
-  "workingClassPosition": "NO",
-  "decision": "Repeal CFPB overdraft rule for very large financial institutions",
-  "whatThisVoteDid": "Big banks were going to face new rules on overdraft fees. This vote canceled those rules.",
-  "whyItMattersToYou": "Overdraft fees can act like a poor tax. When money is already tight, spending more than you have can trigger another fee and put you even further behind. The CFPB estimated these rules could have saved people up to $5 billion a year, about $225 for each household that pays overdraft fees.",
-  "whyWeChose": "We chose NO because canceling the rule meant people could keep paying higher overdraft fees. The rule would have saved customers money, while banks would collect less in fees.",
-  "proof": [
-    {
-      "label": "CFPB consumer impact",
-      "url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-closes-overdraft-loophole-to-save-americans-billions-in-fees/"
+      "voteId": "S153",
+      "chamber": "Senate",
+      "date": "2025-03-27",
+      "measure": "S.J.Res.18",
+      "roll": "153",
+      "workingClassPosition": "NO",
+      "decision": "Repeal CFPB overdraft rule for very large financial institutions",
+      "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00153.htm",
+      "whatThisVoteDid": "Big banks were going to face new rules on overdraft fees. This vote canceled those rules.",
+      "whyItMattersToYou": "Overdraft fees can act like a poor tax. When money is already tight, spending more than you have can trigger another fee and put you even further behind. The CFPB estimated these rules could have saved people up to $5 billion a year, about $225 for each household that pays overdraft fees.",
+      "whyWeChose": "We chose NO because canceling the rule meant people could keep paying higher overdraft fees. The rule would have saved customers money, while banks would collect less in fees.",
+      "proof": [
+        {
+          "label": "CFPB consumer impact",
+          "url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-closes-overdraft-loophole-to-save-americans-billions-in-fees/"
+        },
+        {
+          "label": "CFPB final rule",
+          "url": "https://www.consumerfinance.gov/rules-policy/final-rules/overdraft-lending-very-large-financial-institutions-final-rule/"
+        },
+        {
+          "label": "Congressional resolution",
+          "url": "https://www.congress.gov/119/bills/sjres18/BILLS-119sjres18es.pdf"
+        },
+        {
+          "label": "CBO companion estimate",
+          "url": "https://www.cbo.gov/publication/61767"
+        }
+      ]
     },
-    {
-      "label": "CFPB final rule",
-      "url": "https://www.consumerfinance.gov/rules-policy/final-rules/overdraft-lending-very-large-financial-institutions-final-rule/"
-    },
-    {
-      "label": "Congressional resolution",
-      "url": "https://www.congress.gov/119/bills/sjres18/BILLS-119sjres18es.pdf"
-    },
-    {
-      "label": "CBO companion estimate",
-      "url": "https://www.cbo.gov/publication/61767"
-    }
-  ],
-  "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00153.htm"
-},,
     "S339": {
-  "voteId": "S339",
-  "chamber": "Senate",
-  "date": "2025-06-30",
-  "measure": "S.Amdt.2696 to H.R.1",
-  "roll": "339",
-  "workingClassPosition": "YES",
-  "decision": "Extend enhanced ACA premium credits; offset above $10M",
-  "whatThisVoteDid": "This amendment would keep the extra help that lowers health insurance costs for people who buy coverage through the ACA marketplace. It would pay for that help by raising taxes on people with more than $10 million in income.",
-  "whyItMattersToYou": "If you buy your own health insurance and qualify, this could lower your monthly premium. It would keep that help in place without putting the cost on lower- or middle-income households.",
-  "whyWeChose": "We chose YES because the amendment would help working families pay for health insurance and shift the cost toward people with very high incomes.",
-  "proof": [
-    {
-      "label": "Senate amendment text",
-      "url": "https://www.congress.gov/amendment/119th-congress/senate-amendment/2696"
+      "voteId": "S339",
+      "chamber": "Senate",
+      "date": "2025-06-30",
+      "measure": "S.Amdt.2696 to H.R.1",
+      "roll": "339",
+      "workingClassPosition": "YES",
+      "decision": "Extend enhanced ACA premium credits; offset above $10M",
+      "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00339.htm",
+      "whatThisVoteDid": "This amendment would keep the extra help that lowers health insurance costs for people who buy coverage through the ACA marketplace. It would pay for that help by raising taxes on people with more than $10 million in income.",
+      "whyItMattersToYou": "If you buy your own health insurance and qualify, this could lower your monthly premium. It would keep that help in place without putting the cost on lower- or middle-income households.",
+      "whyWeChose": "We chose YES because the amendment would help working families pay for health insurance and shift the cost toward people with very high incomes.",
+      "proof": [
+        {
+          "label": "Senate amendment text",
+          "url": "https://www.congress.gov/amendment/119th-congress/senate-amendment/2696"
+        },
+        {
+          "label": "CBO ACA premium credit analysis",
+          "url": "https://www.cbo.gov/publication/61734"
+        }
+      ]
     },
-    {
-      "label": "CBO ACA premium credit analysis",
-      "url": "https://www.cbo.gov/publication/61734"
-    }
-  ],
-  "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00339.htm"
-},
     "S361": {
-  "voteId": "S361",
-  "chamber": "Senate",
-  "date": "2025-07-01",
-  "measure": "S.Amdt.2817 to H.R.1",
-  "roll": "361",
-  "workingClassPosition": "YES",
-  "decision": "Strike limitation on certain Medicaid payments",
-  "whatThisVoteDid": "This amendment would remove a limit on how states can use Medicaid money to pay hospitals and other health care providers.",
-  "whyItMattersToYou": "Medicaid helps pay for care for millions of lower-income Americans. Cutting these payments can put pressure on hospitals and other providers that serve Medicaid patients, especially in communities where health care options are already limited.",
-  "whyWeChose": "We chose YES because removing the limit would protect Medicaid funding used to pay for health care. That helps protect access to care for people who depend on Medicaid.",
-  "proof": [
-    {
-      "label": "Senate amendment text",
-      "url": "https://www.congress.gov/amendment/119th-congress/senate-amendment/2817"
+      "voteId": "S361",
+      "chamber": "Senate",
+      "date": "2025-07-01",
+      "measure": "S.Amdt.2817 to H.R.1",
+      "roll": "361",
+      "workingClassPosition": "YES",
+      "decision": "Strike limitation on certain Medicaid payments",
+      "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00361.htm",
+      "whatThisVoteDid": "This amendment would remove a limit on how states can use Medicaid money to pay hospitals and other health care providers.",
+      "whyItMattersToYou": "Medicaid helps pay for care for millions of lower-income Americans. Cutting these payments can put pressure on hospitals and other providers that serve Medicaid patients, especially in communities where health care options are already limited.",
+      "whyWeChose": "We chose YES because removing the limit would protect Medicaid funding used to pay for health care. That helps protect access to care for people who depend on Medicaid.",
+      "proof": [
+        {
+          "label": "Senate amendment text",
+          "url": "https://www.congress.gov/amendment/119th-congress/senate-amendment/2817"
+        },
+        {
+          "label": "CBO Medicaid analysis",
+          "url": "https://www.cbo.gov/publication/61837"
+        }
+      ]
     },
-    {
-      "label": "CBO Medicaid analysis",
-      "url": "https://www.cbo.gov/publication/61837"
-    }
-  ],
-  "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00361.htm"
-},
     "S362": {
-  "voteId": "S362",
-  "chamber": "Senate",
-  "date": "2025-07-01",
-  "measure": "S.Amdt.2435 to H.R.1",
-  "roll": "362",
-  "workingClassPosition": "YES",
-  "decision": "Medicare drug prices plus dental/vision/hearing",
-  "whatThisVoteDid": "This amendment would lower some prescription drug costs for people on Medicare and add coverage for dental, vision, and hearing care.",
-  "whyItMattersToYou": "People on Medicare often have to pay out of pocket for dental work, glasses, and hearing aids. This amendment would help cover those costs and could also lower what they pay for prescription drugs.",
-  "whyWeChose": "We chose YES because the amendment would directly lower health care costs and expand benefits for people on Medicare.",
-  "proof": [
-    {
-      "label": "Senate amendment text",
-      "url": "https://www.congress.gov/amendment/119th-congress/senate-amendment/2435"
-    }
-  ],
-  "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00362.htm"
-},
+      "voteId": "S362",
+      "chamber": "Senate",
+      "date": "2025-07-01",
+      "measure": "S.Amdt.2435 to H.R.1",
+      "roll": "362",
+      "workingClassPosition": "YES",
+      "decision": "Medicare drug prices plus dental/vision/hearing",
+      "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00362.htm",
+      "whatThisVoteDid": "This amendment would lower some prescription drug costs for people on Medicare and add coverage for dental, vision, and hearing care.",
+      "whyItMattersToYou": "People on Medicare often have to pay out of pocket for dental work, glasses, and hearing aids. This amendment would help cover those costs and could also lower what they pay for prescription drugs.",
+      "whyWeChose": "We chose YES because the amendment would directly lower health care costs and expand benefits for people on Medicare.",
+      "proof": [
+        {
+          "label": "Senate amendment text",
+          "url": "https://www.congress.gov/amendment/119th-congress/senate-amendment/2435"
+        }
+      ]
+    },
     "S372": {
-  "voteId": "S372",
-  "chamber": "Senate",
-  "date": "2025-07-01",
-  "measure": "H.R.1",
-  "roll": "372",
-  "workingClassPosition": "NO",
-  "decision": "Final passage of reconciliation bill",
-  "whatThisVoteDid": "This vote passed a huge bill that changed taxes, Medicaid, food assistance, student loans, and other government spending.",
-  "whyItMattersToYou": "This bill changed how much help and money different families would have. The Congressional Budget Office found that people near the bottom would lose resources, while people in the middle and near the top would gain. It also estimated that changes to Medicaid would leave millions more people without health insurance.",
-  "whyWeChose": "We chose NO because people with less money would lose help, including Medicaid and food benefits, while other households would gain from tax changes. Under our rules, that puts too much of the cost on people who can least afford it.",
-  "proof": [
-    {
-      "label": "CBO distributional analysis",
-      "url": "https://www.cbo.gov/publication/61367"
+      "voteId": "S372",
+      "chamber": "Senate",
+      "date": "2025-07-01",
+      "measure": "H.R.1",
+      "roll": "372",
+      "workingClassPosition": "NO",
+      "decision": "Final passage of reconciliation bill",
+      "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+      "whatThisVoteDid": "This vote passed a huge bill that changed taxes, Medicaid, food assistance, student loans, and other government spending.",
+      "whyItMattersToYou": "This bill changed how much help and money different families would have. The Congressional Budget Office found that people near the bottom would lose resources, while people in the middle and near the top would gain. It also estimated that changes to Medicaid would leave millions more people without health insurance.",
+      "whyWeChose": "We chose NO because people with less money would lose help, including Medicaid and food benefits, while other households would gain from tax changes. Under our rules, that puts too much of the cost on people who can least afford it.",
+      "proof": [
+        {
+          "label": "CBO distributional analysis",
+          "url": "https://www.cbo.gov/publication/61367"
+        },
+        {
+          "label": "CBO household-resource analysis",
+          "url": "https://www.cbo.gov/interactive/2025-reconciliation-act"
+        },
+        {
+          "label": "CBO Medicaid estimate",
+          "url": "https://www.cbo.gov/publication/61837"
+        },
+        {
+          "label": "CBO budget estimate",
+          "url": "https://www.cbo.gov/publication/61570"
+        }
+      ]
     },
-    {
-      "label": "CBO household-resource analysis",
-      "url": "https://www.cbo.gov/interactive/2025-reconciliation-act"
-    },
-    {
-      "label": "CBO Medicaid estimate",
-      "url": "https://www.cbo.gov/publication/61837"
-    },
-    {
-      "label": "CBO budget estimate",
-      "url": "https://www.cbo.gov/publication/61570"
-    }
-  ],
-  "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm"
-},
     "S594": {
-  "voteId": "S594",
-  "chamber": "Senate",
-  "date": "2025-10-28",
-  "measure": "S.J.Res.81",
-  "roll": "594",
-  "workingClassPosition": "YES",
-  "decision": "Terminate Brazil tariff emergency",
-  "whatThisVoteDid": "This vote would end special tariffs on goods from Brazil that were put in place using emergency powers.",
-  "whyItMattersToYou": "Tariffs are taxes on imported goods. Businesses that import those goods pay the tax, and some of that cost can be passed on to you through higher prices.",
-  "whyWeChose": "We chose YES because ending these tariffs would remove an added cost on goods from Brazil and reduce pressure on prices paid by American families and businesses.",
-  "proof": [
-    {
-      "label": "Congress.gov resolution",
-      "url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/81"
-    }
-  ],
-  "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00594.htm"
-},
-    "S598": {
-  "voteId": "S598",
-  "chamber": "Senate",
-  "date": "2025-10-29",
-  "measure": "S.J.Res.77",
-  "roll": "598",
-  "workingClassPosition": "YES",
-  "decision": "Terminate Canada tariff emergency",
-  "whatThisVoteDid": "This vote would end special tariffs on goods from Canada that were put in place using emergency powers.",
-  "whyItMattersToYou": "Tariffs are taxes on imported goods. Businesses that import those goods pay the tax, and some of that cost can be passed on to you through higher prices.",
-  "whyWeChose": "We chose YES because ending these tariffs would remove an added cost on goods from Canada and reduce pressure on prices paid by American families and businesses.",
-  "proof": [
-    {
-      "label": "Congress.gov resolution",
-      "url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/77"
-    }
-  ],
-  "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00598.htm"
-},
-    "S600": {
-  "voteId": "S600",
-  "chamber": "Senate",
-  "date": "2025-10-30",
-  "measure": "S.J.Res.88",
-  "roll": "600",
-  "workingClassPosition": "YES",
-  "decision": "Terminate global tariff emergency",
-  "whatThisVoteDid": "This vote would end tariffs placed on goods from many countries using emergency powers.",
-  "whyItMattersToYou": "Tariffs are taxes on imported goods. Businesses that import those goods pay the tax, and some of that cost can reach you through higher prices on everyday products.",
-  "whyWeChose": "We chose YES because ending these tariffs would remove added costs on a wide range of imported goods and reduce pressure on prices paid by American families and businesses.",
-  "proof": [
-    {
-      "label": "Congress.gov resolution",
-      "url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/88"
-    }
-  ],
-  "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00600.htm"
-},
-    "S609": {
-  "voteId": "S609",
-  "chamber": "Senate",
-  "date": "2025-11-07",
-  "measure": "S.3012",
-  "roll": "609",
-  "workingClassPosition": "YES",
-  "decision": "Shutdown Fairness Act",
-  "whatThisVoteDid": "This bill would make sure federal workers who have to work during a government shutdown get paid on their normal payday instead of waiting until the shutdown ends.",
-  "whyItMattersToYou": "Missing a paycheck can mean trouble paying the mortgage, rent, groceries, or other bills. Federal workers should not have to work without getting their paycheck on time because Congress has not funded the government.",
-  "whyWeChose": "We chose YES because people who are required to work should be paid on time for that work. Workers should not have to carry the financial cost of a government shutdown.",
-  "proof": [
-    {
-      "label": "Congress.gov bill text",
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3012"
-    }
-  ],
-  "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00609.htm"
-},
-    "S644": {
-  "voteId": "S644",
-  "chamber": "Senate",
-  "date": "2025-12-11",
-  "measure": "S.3385",
-  "roll": "644",
-  "workingClassPosition": "YES",
-  "decision": "Enhanced ACA premium credit extension",
-  "whatThisVoteDid": "This bill would keep the extra help that lowers health insurance costs for people who buy coverage through the ACA marketplace.",
-  "whyItMattersToYou": "If you buy your own health insurance and qualify, this help can lower your monthly bill. Without the extra help, many families would have to pay more for the same coverage.",
-  "whyWeChose": "We chose YES because the bill would directly help households pay for health insurance and make it easier for people to stay covered.",
-  "proof": [
-    {
-      "label": "Congress.gov bill text",
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3385"
+      "voteId": "S594",
+      "chamber": "Senate",
+      "date": "2025-10-28",
+      "measure": "S.J.Res.81",
+      "roll": "594",
+      "workingClassPosition": "YES",
+      "decision": "Terminate Brazil tariff emergency",
+      "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00594.htm",
+      "whatThisVoteDid": "This vote would end special tariffs on goods from Brazil that were put in place using emergency powers.",
+      "whyItMattersToYou": "Tariffs are taxes on imported goods. Businesses that import those goods pay the tax, and some of that cost can be passed on to you through higher prices.",
+      "whyWeChose": "We chose YES because ending these tariffs would remove an added cost on goods from Brazil and reduce pressure on prices paid by American families and businesses.",
+      "proof": [
+        {
+          "label": "Congress.gov resolution",
+          "url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/81"
+        }
+      ]
     },
-    {
-      "label": "CBO coverage analysis",
-      "url": "https://www.cbo.gov/publication/61734"
-    }
-  ],
-  "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00644.htm"
-},
+    "S598": {
+      "voteId": "S598",
+      "chamber": "Senate",
+      "date": "2025-10-29",
+      "measure": "S.J.Res.77",
+      "roll": "598",
+      "workingClassPosition": "YES",
+      "decision": "Terminate Canada tariff emergency",
+      "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00598.htm",
+      "whatThisVoteDid": "This vote would end special tariffs on goods from Canada that were put in place using emergency powers.",
+      "whyItMattersToYou": "Tariffs are taxes on imported goods. Businesses that import those goods pay the tax, and some of that cost can be passed on to you through higher prices.",
+      "whyWeChose": "We chose YES because ending these tariffs would remove an added cost on goods from Canada and reduce pressure on prices paid by American families and businesses.",
+      "proof": [
+        {
+          "label": "Congress.gov resolution",
+          "url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/77"
+        }
+      ]
+    },
+    "S600": {
+      "voteId": "S600",
+      "chamber": "Senate",
+      "date": "2025-10-30",
+      "measure": "S.J.Res.88",
+      "roll": "600",
+      "workingClassPosition": "YES",
+      "decision": "Terminate global tariff emergency",
+      "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00600.htm",
+      "whatThisVoteDid": "This vote would end tariffs placed on goods from many countries using emergency powers.",
+      "whyItMattersToYou": "Tariffs are taxes on imported goods. Businesses that import those goods pay the tax, and some of that cost can reach you through higher prices on everyday products.",
+      "whyWeChose": "We chose YES because ending these tariffs would remove added costs on a wide range of imported goods and reduce pressure on prices paid by American families and businesses.",
+      "proof": [
+        {
+          "label": "Congress.gov resolution",
+          "url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/88"
+        }
+      ]
+    },
+    "S609": {
+      "voteId": "S609",
+      "chamber": "Senate",
+      "date": "2025-11-07",
+      "measure": "S.3012",
+      "roll": "609",
+      "workingClassPosition": "YES",
+      "decision": "Shutdown Fairness Act",
+      "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00609.htm",
+      "whatThisVoteDid": "This bill would make sure federal workers who have to work during a government shutdown get paid on their normal payday instead of waiting until the shutdown ends.",
+      "whyItMattersToYou": "Missing a paycheck can mean trouble paying the mortgage, rent, groceries, or other bills. Federal workers should not have to work without getting their paycheck on time because Congress has not funded the government.",
+      "whyWeChose": "We chose YES because people who are required to work should be paid on time for that work. Workers should not have to carry the financial cost of a government shutdown.",
+      "proof": [
+        {
+          "label": "Congress.gov bill text",
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3012"
+        }
+      ]
+    },
+    "S644": {
+      "voteId": "S644",
+      "chamber": "Senate",
+      "date": "2025-12-11",
+      "measure": "S.3385",
+      "roll": "644",
+      "workingClassPosition": "YES",
+      "decision": "Enhanced ACA premium credit extension",
+      "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00644.htm",
+      "whatThisVoteDid": "This bill would keep the extra help that lowers health insurance costs for people who buy coverage through the ACA marketplace.",
+      "whyItMattersToYou": "If you buy your own health insurance and qualify, this help can lower your monthly bill. Without the extra help, many families would have to pay more for the same coverage.",
+      "whyWeChose": "We chose YES because the bill would directly help households pay for health insurance and make it easier for people to stay covered.",
+      "proof": [
+        {
+          "label": "Congress.gov bill text",
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3385"
+        },
+        {
+          "label": "CBO coverage analysis",
+          "url": "https://www.cbo.gov/publication/61734"
+        }
+      ]
+    },
     "S182": {
-  "voteId": "S182",
-  "chamber": "Senate",
-  "date": "2026-06-22",
-  "measure": "H.R.6644",
-  "roll": "182",
-  "workingClassPosition": "YES",
-  "decision": "Housing for the 21st Century Act",
-  "whatThisVoteDid": "This bill would make changes aimed at building more homes and lowering some of the costs and delays that make housing harder to build.",
-  "whyItMattersToYou": "Housing costs take a big bite out of a family's paycheck. Making it easier and less expensive to build more homes could help increase the supply of housing and ease pressure on rents and home prices.",
-  "whyWeChose": "We chose YES because the bill takes steps to increase the supply of housing and address costs that make it harder for working families to find an affordable place to live.",
-  "proof": [
-    {
-      "label": "Congress.gov bill text",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6644"
+      "voteId": "S182",
+      "chamber": "Senate",
+      "date": "2026-06-22",
+      "measure": "H.R.6644",
+      "roll": "182",
+      "workingClassPosition": "YES",
+      "decision": "Housing for the 21st Century Act",
+      "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00182.htm",
+      "whatThisVoteDid": "This bill would make changes aimed at building more homes and lowering some of the costs and delays that make housing harder to build.",
+      "whyItMattersToYou": "Housing costs take a big bite out of a family's paycheck. Making it easier and less expensive to build more homes could help increase the supply of housing and ease pressure on rents and home prices.",
+      "whyWeChose": "We chose YES because the bill takes steps to increase the supply of housing and address costs that make it harder for working families to find an affordable place to live.",
+      "proof": [
+        {
+          "label": "Congress.gov bill text",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/6644"
+        }
+      ]
     }
-  ],
-  "officialSource": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00182.htm"
-}
-},      
+  },
   "members": {
     "house|NC|adams": {
       "member": "Adams",
