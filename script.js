@@ -128,7 +128,27 @@ const senatorsWithScores = data.senators.map(senator => {
           · Member vote:
           <strong>${vote.memberVote}</strong>
         </p>
+       <details class="vote-rationale">
+  <summary>WHY THIS POSITION?</summary>
 
+  <p><strong>WHAT THIS VOTE DID</strong><br>
+  ${vote.whatThisVoteDid}</p>
+
+  <p><strong>WHY IT MATTERS TO YOU</strong><br>
+  ${vote.whyItMattersToYou}</p>
+
+  <p><strong>WHY WE CHOSE ${vote.workingClassPosition}</strong><br>
+  ${vote.whyWeChose}</p>
+
+  ${vote.proof?.length ? `
+    <p><strong>PROOF</strong></p>
+    ${vote.proof.map(item => `
+      <a href="${item.url}" target="_blank" rel="noopener">
+        ${item.label}
+      </a><br>
+    `).join("")}
+  ` : ""}
+</details>
         <a href="${vote.officialSource}" target="_blank" rel="noopener">
           VIEW OFFICIAL ROLL CALL
         </a>
@@ -188,7 +208,27 @@ const senatorsWithScores = data.senators.map(senator => {
           Member vote:
           <strong>${vote.memberVote}</strong>
         </p>
+        <details class="vote-rationale">
+  <summary>WHY THIS POSITION?</summary>
 
+  <p><strong>WHAT THIS VOTE DID</strong><br>
+  ${vote.whatThisVoteDid}</p>
+
+  <p><strong>WHY IT MATTERS TO YOU</strong><br>
+  ${vote.whyItMattersToYou}</p>
+
+  <p><strong>WHY WE CHOSE ${vote.workingClassPosition}</strong><br>
+  ${vote.whyWeChose}</p>
+
+  ${vote.proof?.length ? `
+    <p><strong>PROOF</strong></p>
+    ${vote.proof.map(item => `
+      <a href="${item.url}" target="_blank" rel="noopener">
+        ${item.label}
+      </a><br>
+    `).join("")}
+  ` : ""}
+</details>
         <a href="${vote.officialSource}" target="_blank" rel="noopener">
           VIEW OFFICIAL ROLL CALL
         </a>
