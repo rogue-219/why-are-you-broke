@@ -198,7 +198,7 @@ const senatorsWithScores = data.senators.map(senator => {
   <div class="vote-list">
     ${senator.voteHistory.map(vote => {
   const definition = voteDefinitions[vote.voteId] || {};
-  return ` `
+  return `
       <div class="vote-row">
         <div class="vote-row-top">
           <strong>${vote.measure}</strong>
