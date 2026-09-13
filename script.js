@@ -144,7 +144,7 @@ const senatorsWithScores = data.senators.map(senator => {
 
   ${definition.proof?.length ? `
     <p><strong>PROOF</strong></p>
-    ${definition.proof.map(item => ` `
+    ${definition.proof.map(item => `
       <a href="${item.url}" target="_blank" rel="noopener">
         ${item.label}
       </a><br>
