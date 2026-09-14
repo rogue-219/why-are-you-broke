@@ -2,9 +2,9 @@
   "meta": {
     "congress": 119,
     "memberCount": 532,
-    "source": "working_class_scores_119th_current.xlsx",
+    "source": "working_class_scores_119th_AUDITED_2026-09-14.xlsx",
     "joinRule": "chamber|state|surname",
-    "note": "Congress.gov remains the live source for current member identity and Bioguide ID."
+    "note": "Audited 2026-09-14. Congress.gov remains the live source for current member identity and Bioguide ID."
   },
   "members": {
     "house|AK|begich": {
@@ -5569,10 +5569,10 @@
       "party": "Republican",
       "chamber": "Senate",
       "aligned": 1,
-      "cast": 10,
+      "cast": 9,
       "eligible": 11,
-      "score": 10,
-      "participationPct": 90.9090909090909,
+      "score": 11.11111111111111,
+      "participationPct": 81.81818181818183,
       "serviceStart": "2025-01-03"
     },
     "senate|KY|mcconnell": {
